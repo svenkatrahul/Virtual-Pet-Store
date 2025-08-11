@@ -1,8 +1,6 @@
 #Owner code Part
 import pandas as pd
 import datetime
-Identity=input("Enter your Identity:Owner/Customer: ")
-Name=input("Enter your Name:")
 if Identity=="Owner":
     Password=input("Enter Password:")
     if Password=="123456789":
