@@ -242,6 +242,7 @@ if Identity=="Customer":
     receipt_folder = f"C:/Users/S Venkat Rahul/GitHub/Virtual-Pet-Store/Reciepts/{receipt_no}"
     receipt_file_path = f"{receipt_folder}/Receipt_{receipt_no}.pdf"
     os.makedirs(receipt_folder, exist_ok=True)
+    feedback = input("We'd love your feedback on this experience.\nYour thoughts: ")
 
     # Load logo images
     logo1 = mpimg.imread('C:/Users/S Venkat Rahul/GitHub/Virtual-Pet-Store/Images/Logo.png')
@@ -302,7 +303,8 @@ if Identity=="Customer":
     "Customer Name": Name,
     "Date & Time": date,
     "Total Amount": round(Total_Bill, 2),
-    "Receipt": receipt_file_path
+    "Receipt": receipt_file_path,
+    "Feedback": feedback
     }
 
     new_row = pd.DataFrame([new_entry])
