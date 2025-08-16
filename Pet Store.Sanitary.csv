@@ -1,7 +1,7 @@
 Serial No,Item Name,Quantity,Price,Expiry Date
-1,Soap,9,20.0,12-01-2023
-2,Shampoo,0,100.0,12-01-2024
-3,Ear-Cleaning Solution,4,100.0,02-03-2024
-4,Brush,2,43.0,
-5,Comb,4,50.0,
-6,Oil,2,45.0,20-01-2025
+1,Soap,119,20,12/1/2023
+2,Shampoo,199,100,12/1/2024
+3,Ear-Cleaning Solution,49,100,2/3/2024
+4,Brush,29,43,
+5,Comb,40,50,
+6,Oil,30,45,12/12/2025
