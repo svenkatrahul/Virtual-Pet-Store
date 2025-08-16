@@ -32,16 +32,27 @@ python main.py
 
 🗂️ Folder Structure
 Virtual-Pet-Store/
+
 ├── Images/                          # Mascot visuals, branding assets
+
 ├── Receipts/                        # Emotionally tagged receipts and feedback logs
+
 ├── MainCode.py                      # Core logic and app functionality
+
 ├── Pet_Store_Accessories.csv        # Accessories inventory
+
 ├── Pet_Store_Accessories.xlsx       # Accessories data (Excel format)
+
 ├── Pet_Store_Food_Items.csv         # Food items inventory
+
 ├── Pet_Store_Food_Items.xlsx        # Food items data (Excel format)
+
 ├── Pet_Store_Registry.csv           # Main registry with feedback integration
+
 ├── Pet_Store_Sanitary.csv           # Sanitary items inventory
+
 ├── Pet_Store_Sanitary.xlsx          # Sanitary data (Excel format)
+
 ├── README.md                        # Project overview and emotional branding
 
 🧪 Usage
